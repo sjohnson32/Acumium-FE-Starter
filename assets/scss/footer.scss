@@ -1,0 +1,12 @@
+@import "variables";
+
+footer {
+  background-color:$brand-light;
+  color:$body-background;
+  margin: 50px 0 0;
+  padding:10px;
+  .icon {
+   font-size: 2em;
+    margin-left:10px;
+  }
+}

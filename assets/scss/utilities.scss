@@ -1,0 +1,12 @@
+@import "variables";
+
+.inline-block {
+  display:inline-block;
+}
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+.bg-dark {
+  background-color: $brand-dark!important;
+}

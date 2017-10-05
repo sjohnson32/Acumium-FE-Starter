@@ -1,0 +1,26 @@
+@import "variables";
+
+.btn {
+  background-color:$gray;
+  border:1px solid $gray-dark;
+  border-radius:$global-radius;
+  color:$body-background;
+  &.btn-primary {
+    background-color:$primary-color;
+    border-color:$primary-color;
+    &:hover {
+      background-color:$brand-light;
+    }
+  }
+  &.btn-secondary {
+    background-color:$brand-accent;
+    border-color:$brand-accent;
+    color:$primary-color;
+    &:hover {
+      background-color:$brand-accent-light;
+    }
+  }
+  &.btn-default {
+    color:#333;
+  }
+}

@@ -1,0 +1,27 @@
+@import "variables";
+
+.carousel-caption {
+  color:$color-white;
+  left: 15%;
+  text-align: left;
+  top: 30%;
+  h3 {
+    color:$color-white;
+  }
+}
+
+.image-overlay {
+  background-color: #000;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  opacity:.5;
+  z-index: 3;
+}
+#header {
+  .navbar-dark .navbar-nav .nav-link {
+    color: $color-white;
+  }
+}

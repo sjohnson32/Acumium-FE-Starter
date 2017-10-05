@@ -1,0 +1,21 @@
+<footer>
+    <div class="container">
+        <div class="row center-vertical">
+            <div class="col-sm-6">
+                &copy;<span id="currentYear"></span> Acumium, LLC. All Rights Reserved
+            </div>
+            <div class="col-sm-6 text-right">
+                <icon class="icon icon-facebook"></icon>
+                <icon class="icon icon-twitter"></icon>
+                <icon class="icon icon-instagram"></icon>
+                <icon class="icon icon-linkedin"></icon>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    var dteNow = new Date();
+    var intYear = dteNow.getFullYear();
+    console.log(intYear);
+    $("#currentYear").text(intYear);
+</script>

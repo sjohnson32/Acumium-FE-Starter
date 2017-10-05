@@ -1,0 +1,62 @@
+$font-weight-normal: normal;
+$font-weight-bold: 600;
+
+// We use these to control various global styles
+$body-background: #fff;
+$body-font-color: #4c4c4c;
+
+/* copied from Boostrap 4 */
+$body-font-family: // Safari for OS X and iOS (San Francisco)
+        -apple-system,
+          // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+        system-ui,
+          // Chrome < 56 for OS X (San Francisco)
+        BlinkMacSystemFont,
+          // Windows
+        "Segoe UI",
+          // Android
+        "Roboto",
+          // Basic web fallback
+        "Helvetica Neue", Arial, sans-serif !default;
+
+$header-height: 60px;
+
+$brand-dark: #08304a;
+$brand-light: #42657b;
+$brand-accent: #ffcf31;
+$brand-accent-light: #ffef11;
+$primary-color: $brand-dark;
+$link-color: $brand-light;
+$color-white:#fff;
+
+$error-color: #d21b03;
+$error-bg-color: #FFFCFC;
+$light-bg-color:#efffff;
+$success-color: #fb4919;
+$success-bg-color: #E7F5F8;
+$success-highlight-bg-color: #e7fff6;
+$warning-color: #fb8300;
+$warning-bg-color: #fae8d4;
+$info-color: $primary-color;
+$info-bg-color: $brand-light;
+$gray: #c7c7c7;
+$gray-dark: #989898;
+$gray-light: #eaeaea;
+$gray-lightest-text: #919694;
+$gray-bg: #f7f7f7;
+
+$border-color: $gray;
+$box-background: #fff;
+$header-background: $primary-color;
+$footer-background: $brand-dark;
+
+$color1: $primary-color;
+$color2: $success-color;
+$color3: #000;
+$color4: #f1f7ed;
+$color5: #C51B1B;
+$color6: #2a2d34;
+$color7: #b8ccc4;
+$color8: #5e6361;
+
+$global-radius: 4px;
